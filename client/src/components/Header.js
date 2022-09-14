@@ -65,7 +65,7 @@ const Header=(props)=>{
                 <div className="header-search">
                     <div className="header-search-item">
                     <FontAwesomeIcon icon={faBed} className="header-icon"/>
-                        <input type="text" placeholder="Where are you going?" className="header-search-input" onChange={(e)=>setDestination(e.target.value)}></input>
+                        <input type="text" placeholder="Where are you going?" className="header-search-input" onChange={(e)=>setDestination(e.target.value)} ></input>
                     </div>
                     <div className="header-search-item">
                         <FontAwesomeIcon icon={faCalendarDays} className="header-icon"/>

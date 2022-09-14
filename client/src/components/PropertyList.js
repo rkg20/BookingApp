@@ -64,7 +64,7 @@ const PropertyList=()=>{
             <div className="property-list-heading">
                <h1>Browse by property type</h1>
             </div>
-            <div className="property-slider">
+            <div className="property-slider" >
                 <Slider {...settings}>
                     {list.map((item)=><Featured title={item?.title} images={item?.images}/>)}
                 </Slider>

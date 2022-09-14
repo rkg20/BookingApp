@@ -66,7 +66,7 @@ const Home=()=>{
             <Header/>
             {/* <Offer/> */}
             <Explore/>
-            <PropertyList/>
+            <PropertyList />
             {/* {list.map((item)=><Inspiration images={item?.images}/>)} */}
             <MailList/>
             <Footer/>

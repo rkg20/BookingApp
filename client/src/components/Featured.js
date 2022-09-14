@@ -4,7 +4,7 @@ const Featured=(props)=>{
     
       
     return(
-            <div className="featured">
+            <div className="featured" >
                  
                 <div className="featured-item">
                     <img className='featured-img' src={props?.images} alt=""/>

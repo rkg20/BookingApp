@@ -5,12 +5,13 @@ const PrevArrow=(props)=>{
     return(
         <div className={className}
         style={{...style, 
-        background:"#0071c2", 
+        backgroundColor:"#0071c2",
         borderRadius:"50%", 
         display:"flex", 
         justifyContent:"center",
         alignItem:"center",
         padding:"4px",
+        marginTop:"-35px"
         }}
         onClick={onClick}
         >
